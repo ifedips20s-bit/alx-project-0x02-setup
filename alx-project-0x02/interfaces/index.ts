@@ -10,3 +10,8 @@ export interface ButtonProps {
   shape?: "rounded-sm" | "rounded-md" | "rounded-full";
   onClick?: () => void;
 }
+export interface PostProps {
+  userId: number;
+  title: string;
+  content: string; // We'll map 'body' from API to 'content'
+}
