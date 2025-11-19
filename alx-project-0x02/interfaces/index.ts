@@ -15,3 +15,11 @@ export interface PostProps {
   title: string;
   content: string; // We'll map 'body' from API to 'content'
 }
+export interface UserProps {
+  name: string;
+  email: string;
+  address: {
+    street: string;
+    city: string;
+  };
+}
