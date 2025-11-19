@@ -9,7 +9,6 @@ export default function HomePage() {
     { title: "Card 1", content: "This is the content of Card 1." },
     { title: "Card 2", content: "Here is some different content for Card 2." }
   ]);
-
   const [isModalOpen, setIsModalOpen] = useState(false);
 
   return (

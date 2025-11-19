@@ -7,7 +7,6 @@ export default function AboutPage() {
       <Header />
       <main className="flex flex-col items-center justify-center min-h-screen gap-6 p-6">
         <h1 className="text-4xl font-bold mb-6">About Page</h1>
-
         <div className="flex gap-4">
           <Button label="Small Rounded" size="small" shape="rounded-sm" />
           <Button label="Medium Rounded" size="medium" shape="rounded-md" />
